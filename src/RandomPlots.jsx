@@ -21,7 +21,7 @@ const RandomPlots = () => {
       const time = new Date().toLocaleTimeString();
 
       // Generate random values
-      const voltage = (Math.random() * (3.7 - 0) + 0).toFixed(2);
+      const voltage = (Math.random() * (3.7 - 3) + 3).toFixed(2);
       const current = (Math.random() * (150 - 100) + 100).toFixed(2);
       const temperature = (Math.random() * (350 - 300) + 300).toFixed(2);
 
